@@ -52,8 +52,7 @@ class Task extends React.Component {
         // Rails' dom_id
         var root = document.getElementById(domId)
         if (root) {
-          var component = React.createElement(Task, {task: task})
-          ReactDOM.render(component, root)
+          ReactDOM.render(<Task task={task}/>, root)
         }
       }
 
