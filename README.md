@@ -37,4 +37,4 @@ When the component mounts (`componentDidMount`), subscribe to the ActionCable so
 
 ### ... with style
 
-I wanted real-time updates to the component to be more noticeable, so I use a yellow flash to indicate the the component has been updated. The flash is initialized when the component mounts, and triggered whenever the component updates (`componentDidUpdate`).
+I wanted real-time updates to the component to be more noticeable, so I use a yellow flash to indicate the the component has been updated. The flash is initialized when the component mounts, and triggered whenever the component updates (`componentDidUpdate`). The flash is implemented using a CSS animation.
