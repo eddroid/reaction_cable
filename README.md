@@ -22,7 +22,7 @@ rails g react:component Task task:object --es6
 
 ...then updated to look like a standard Rails view partial, replacing all instances of, for example:
 
-```rb
+```erb
 <%= task.name %>
 ```
 
