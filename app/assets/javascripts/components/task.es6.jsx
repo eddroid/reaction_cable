@@ -108,5 +108,5 @@ class Task extends React.Component {
 }
 
 Task.propTypes = {
-  task: React.PropTypes.object
+  task: PropTypes.object
 };
